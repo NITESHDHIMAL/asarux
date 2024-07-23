@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    background-color: #0f172b;
+    color: white;
+    height: 70px;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    /* color: black; */
+    color: white;
+}
+.nav_link{
+    width: 50%;
+
+}
+.nav_link ul {
+    display: flex;
+    justify-content: space-between;
+    /* list-style-type:decimal; */
+    list-style-type:none;
+}
+
+
+
+

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+
+    <!-- font awesome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        .parent{
+            border: 4px solid red;
+            font-size: 2rem;
+            width: 50%;
+            position: relative;
+        }
+        .child{
+            height: 150px;
+            width: 150px;
+            border: 2px solid black;
+
+            text-align: center;
+            align-content: center;
+
+            /* display: flex;
+            justify-content: center;
+            align-items: center; */
+
+            
+        }
+
+        #static {
+            background-color: aqua;
+            margin-top: 2rem;
+            position:static;
+        }
+        #fixed{
+            background-color: purple;
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            border-radius: 100%;
+        }
+        #relative{
+            background-color: brown;
+            position: relative;
+            top: 3rem;
+        }
+        #absolute{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+        #sticky{
+            position: sticky;
+            top: 0;
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- <h2>Position Types</h2>
+
+    <ol>
+        <li>Static</li>
+        <li>Fixed</li>
+        <li>Relative</li>
+        <li>Absolute</li>
+        <li>Sticky</li>
+    </ol> -->
+ 
+    <div class="parent">
+        <div class="child" id="static">Static</div>
+        <!-- <div class="child" id="fixed">Fixed</div> -->
+        <div class="child" id="fixed"><i class="fa-solid fa-up-long"></i></div>
+        <div class="child" id="relative">Relative</div>
+        <div class="child" id="absolute">Absolute</div>
+    </div>
+    
+    <div class="child" id="sticky">Sticky</div>
+
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae maiores aut eveniet suscipit totam molestiae inventore placeat sint minus pariatur consectetur nobis animi, exercitationem atque, corrupti, harum dignissimos quia deleniti.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae maiores aut eveniet suscipit totam molestiae inventore placeat sint minus pariatur consectetur nobis animi, exercitationem atque, corrupti, harum dignissimos quia deleniti.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae maiores aut eveniet suscipit totam molestiae inventore placeat sint minus pariatur consectetur nobis animi, exercitationem atque, corrupti, harum dignissimos quia deleniti.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae maiores aut eveniet suscipit totam molestiae inventore placeat sint minus pariatur consectetur nobis animi, exercitationem atque, corrupti, harum dignissimos quia deleniti.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae maiores aut eveniet suscipit totam molestiae inventore placeat sint minus pariatur consectetur nobis animi, exercitationem atque, corrupti, harum dignissimos quia deleniti.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae maiores aut eveniet suscipit totam molestiae inventore placeat sint minus pariatur consectetur nobis animi, exercitationem atque, corrupti, harum dignissimos quia deleniti.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae maiores aut eveniet suscipit totam molestiae inventore placeat sint minus pariatur consectetur nobis animi, exercitationem atque, corrupti, harum dignissimos quia deleniti.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae maiores aut eveniet suscipit totam molestiae inventore placeat sint minus pariatur consectetur nobis animi, exercitationem atque, corrupti, harum dignissimos quia deleniti.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae maiores aut eveniet suscipit totam molestiae inventore placeat sint minus pariatur consectetur nobis animi, exercitationem atque, corrupti, harum dignissimos quia deleniti.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae maiores aut eveniet suscipit totam molestiae inventore placeat sint minus pariatur consectetur nobis animi, exercitationem atque, corrupti, harum dignissimos quia deleniti.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae maiores aut eveniet suscipit totam molestiae inventore placeat sint minus pariatur consectetur nobis animi, exercitationem atque, corrupti, harum dignissimos quia deleniti.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae maiores aut eveniet suscipit totam molestiae inventore placeat sint minus pariatur consectetur nobis animi, exercitationem atque, corrupti, harum dignissimos quia deleniti.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae maiores aut eveniet suscipit totam molestiae inventore placeat sint minus pariatur consectetur nobis animi, exercitationem atque, corrupti, harum dignissimos quia deleniti.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae maiores aut eveniet suscipit totam molestiae inventore placeat sint minus pariatur consectetur nobis animi, exercitationem atque, corrupti, harum dignissimos quia deleniti.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae maiores aut eveniet suscipit totam molestiae inventore placeat sint minus pariatur consectetur nobis animi, exercitationem atque, corrupti, harum dignissimos quia deleniti.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae maiores aut eveniet suscipit totam molestiae inventore placeat sint minus pariatur consectetur nobis animi, exercitationem atque, corrupti, harum dignissimos quia deleniti.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae maiores aut eveniet suscipit totam molestiae inventore placeat sint minus pariatur consectetur nobis animi, exercitationem atque, corrupti, harum dignissimos quia deleniti.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae maiores aut eveniet suscipit totam molestiae inventore placeat sint minus pariatur consectetur nobis animi, exercitationem atque, corrupti, harum dignissimos quia deleniti.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae maiores aut eveniet suscipit totam molestiae inventore placeat sint minus pariatur consectetur nobis animi, exercitationem atque, corrupti, harum dignissimos quia deleniti.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae maiores aut eveniet suscipit totam molestiae inventore placeat sint minus pariatur consectetur nobis animi, exercitationem atque, corrupti, harum dignissimos quia deleniti.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae maiores aut eveniet suscipit totam molestiae inventore placeat sint minus pariatur consectetur nobis animi, exercitationem atque, corrupti, harum dignissimos quia deleniti.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae maiores aut eveniet suscipit totam molestiae inventore placeat sint minus pariatur consectetur nobis animi, exercitationem atque, corrupti, harum dignissimos quia deleniti.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae maiores aut eveniet suscipit totam molestiae inventore placeat sint minus pariatur consectetur nobis animi, exercitationem atque, corrupti, harum dignissimos quia deleniti.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae maiores aut eveniet suscipit totam molestiae inventore placeat sint minus pariatur consectetur nobis animi, exercitationem atque, corrupti, harum dignissimos quia deleniti.</p>
+
+
+
+
+</body>
+</html>
