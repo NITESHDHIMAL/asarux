@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            color: white;
+        }
+        .header{
+            height: 60px; 
+            background-color: green;
+            border-radius: 1rem;
+
+        }
+        .footer{
+            height: 60px; 
+            background-color: brown;
+            border-radius: 1rem;
+
+        }
+        .main{
+            display: flex;
+            column-gap: 1rem;
+            margin: 1rem 0;
+        }
+        .child_main{
+            height: 80vh;
+            width: 80vw; 
+            background-color: blue;
+            border-radius: 1rem;
+
+        }
+        .sidebar{
+            height: 80vh; 
+            width: 20vw; 
+            background-color: yellow;
+            border-radius: 1rem;
+
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div class="header">Header</div>
+    
+    <div class="main">
+        <div class="child_main"></div>
+        <div class="sidebar"></div>
+    </div>
+    
+    <div class="footer">Footer</div>
+</body>
+</html>
