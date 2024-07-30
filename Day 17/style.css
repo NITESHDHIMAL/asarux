@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: aqua; */
+    align-items: center;
+}
+.left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: brown; */
+
+    width: 50%;
+}
+.sidebabar{
+    width: 20%;
+}
+.content{
+    width: 60%;
+}
+.rightmenu{
+    width: 20%;
+}
+.page_container{
+    display: flex;
+}
+
+

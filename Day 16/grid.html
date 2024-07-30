@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Grid</title>
+
+    <style>
+        .parent {
+            border: 2px solid red;
+            display: grid;
+            grid-template-columns: 50px 50px 50px 50px;
+            /* grid-template-columns: repeat(4, 200px); */
+            /* grid-template-columns: 2fr 1fr; */
+            /* grid- template-columns: auto auto; */
+
+            /* grid-template-rows: 1fr 1fr; */
+
+            /* height: 800px; */
+
+            /* row-gap: 1rem; */
+            /* column-gap: 1rem; */
+            /* gap: 1rem; */
+
+        }
+        .child{
+            height: 50px;
+            width:50px;
+            border: 2px solid brown;
+        }
+
+    </style>
+</head>
+<body>
+
+
+    <!-- flexbox => row or column
+    grid => both row and column -->
+
+    <div class="parent">
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+        <div class="child">4</div>
+        <div class="child">5</div>
+        <div class="child">6</div>
+        <div class="child">7</div>
+        <div class="child">8</div>
+    </div>
+
+    
+</body>
+</html>
