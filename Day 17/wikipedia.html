@@ -14,6 +14,9 @@
     <!-- local css  -->
     <link rel="stylesheet" href="./style.css">
 
+    <!-- google font  -->
+     <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+
 </head>
 
 <body>
@@ -26,12 +29,15 @@
                 </div>
 
                 <img src="https://en.wikipedia.org/static/images/icons/wikipedia.png" alt="logo" height="50">
+                <div class="logo">
+                    <img src="https://en.wikipedia.org/static/images/mobile/copyright/wikipedia-wordmark-en.svg"
+                        alt="wikipedia" height="20">
+                    <img src="https://en.wikipedia.org/static/images/mobile/copyright/wikipedia-tagline-en.svg"
+                        alt="encyclopedia" height="20">
+                </div>
+            </div>
 
-                <img src="https://en.wikipedia.org/static/images/mobile/copyright/wikipedia-wordmark-en.svg"
-                    alt="wikipedia" height="20">
-                <img src="https://en.wikipedia.org/static/images/mobile/copyright/wikipedia-tagline-en.svg"
-                    alt="encyclopedia" height="20">
-
+            <div class="search">
                 <input type="text" placeholder="search wikipedia">
                 <button>Search</button>
             </div>
@@ -48,10 +54,11 @@
     <main>
 
         <div class="page_container">
+
             <div class="sidebabar">
-                <details>
+                <!-- <details>
                     <summary>
-                        <h3> <a href="#history" >History</a></h3>
+                        <h3> <a href="#history">History</a></h3>
                     </summary>
                     <ol>
                         <li>Ancient Nepal</li>
@@ -61,7 +68,7 @@
                 </details>
                 <details>
                     <summary>
-                        <h3> <a href="#geography" >Geography</a></h3>
+                        <h3> <a href="#geography">Geography</a></h3>
                     </summary>
                     <ol>
                         <li>Ancient Nepal</li>
@@ -98,7 +105,12 @@
                         <li>Medieval Nepal</li>
                         <li>Contemporary History</li>
                     </ol>
-                </details>
+                </details> -->
+                <ul>
+                    <li><a href="#history"><i class="fa-solid fa-angle-right"></i> History</a></li>
+                    <li><a href="#geography"><i class="fa-solid fa-angle-right"></i>Geography</a></li>
+                    <li><a href="#politics"><i class="fa-solid fa-angle-right"></i>Politics and Government</a></li>
+                </ul>
             </div>
 
             <div class="content">
@@ -129,7 +141,6 @@
                     Kramrisch (1964) mentions a substratum of a race of pre-Dravidians and Dravidians, who were in Nepal
                     even before the Newars, who formed the majority of the ancient inhabitants of the valley of
                     Kathmandu.[41]</p>
-
 
                 <h2 id="geography">Geography</h2>
                 <p>Nepal is of roughly trapezoidal shape, about 800 kilometres (500 mi) long and 200 kilometres (120 mi)
