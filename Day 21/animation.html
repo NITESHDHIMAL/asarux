@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .box{
+            /* height: 150px;
+            width: 150px; */
+            height: 50px;
+            width: 50px;
+            background-color: lightgreen;
+            position: relative;
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            animation-name: movebox;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            /* animation-iteration-count: 3; */
+            text-align: center;
+            align-content: center;
+            color: white;
+            font-size: 2rem;
+
+
+        }
+
+        /* @keyframes movebox {
+            from {
+                top: 0;
+                background-color: red;
+            } to {
+                top: 200px;
+                background-color: purple;
+            }
+        } */
+
+        /* @keyframes movebox {
+            0% {
+                background-color: red;
+                top: 0;
+                left: 0;
+             } 
+             25% {
+                background-color: yellow;
+                left: 500px;
+                top: 0;
+            }
+             50% {
+                background-color: pink;
+                left: 500px;
+                top: 500px;
+            }
+             75% {
+                background-color: green;
+                top: 500px;
+                left: 0;
+            }
+             100% {
+                background-color: purple;
+                top: 0;
+                left: 0;
+            }
+        } */
+
+        
+        @keyframes movebox {
+            0% {
+                background-color: red;
+                width: 0%;
+            } 
+            25% {
+                background-color: yellow;
+                width: 25%;
+                
+            }
+            50% {
+                background-color: pink;
+                width: 50%;
+                
+            }
+            75% {
+                background-color: green;
+                width: 75%;
+                
+            }
+            100% {
+                background-color: purple;
+                width: 100%;
+                
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="box">Loading</div>
+    
+</body>
+</html>

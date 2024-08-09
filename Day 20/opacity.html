@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opacity</title>
+    <style>
+        .opac{ 
+            background-color: rgb(228, 215, 215);
+            box-shadow: 0px 0px 20px 12px gray;
+           
+            /* display: flex; */
+            height: 200px;
+            width: 200px;
+            border-radius: 100%;
+
+            /* transition: all 5s; */
+
+            /* transition-property: background-color; */
+            transition-property: all;
+
+            transition-duration: 1s;
+            /* transition-delay: 2s; */
+            /* transition-timing-function: ease; */
+            /* transition-timing-function: ease-in; */
+            /* transition-timing-function: ease-out; */
+            /* transition-timing-function: ease-in-out; */
+            /* transition-timing-function: cubic-bezier(0, 1.62, 0.86, -0.2); */
+            margin: auto;
+        }
+        /* opacity: 0.5; */
+        .opac:hover{
+            /* background-color: red;
+            cursor: pointer;
+            width: 400px; */
+            background-color: red;
+            box-shadow: 0px 0px 20px 12px #e91212;
+            
+        }
+
+        .child {
+            height: 150px;
+            width:150px;
+        }
+
+        #child1{
+            background-color: lightcoral;
+            position: relative;
+            left: 4rem;
+            /* top: 4rem; */
+        }
+        #child2{
+            background-color: rgb(163, 11, 33);
+            z-index: 1;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+
+
+    <div class="opac">
+
+        <!-- <div class="child" id="child1"></div>
+        <div class="child" id="child2"></div> -->
+
+    </div>
+    
+</body>
+</html>
